@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      .container1{
+        background-color: bisque;
+        border-radius: 15px;
+        width:700px;
+        height:410px;
+      }
+        #Textbox1{
+        margin-top: 15px;
+        width: 525px;
+        height:100px;
+        border-radius: 25px;
+        font-size: 12px;
+      }
+      .btn{
+        width:130px;
+        height:50px;
+      }
+      .checkoutbtn{
+        width:83px;
+        height:50px;
+        background-color:Orange;
+        border-radius:15px;
+      }
+      .addbtn{
+        width:83px;
+        height:50px;
+        background-color:red;
+        border-radius:15px;
+      }
+    </style>
+    <script>
+        let btn1 = "Costa Leona #1";
+        let btn2 = "Costa Leona #2";
+        let btn3 = "Costa Leona #3";
+        let btn4 = "Costa Leona #4";
+        let btn5 = "Costa Leona #5";
+        let btn6 = "Costa Leona #6";
+        let btn7 = "Costa Leona #7";
+        let btn8 = "Costa Leona #8";
+        let btn9 = "Costa Leona #9";
+        let btn0 = "Costa Leona #10";
+        let brgr = " Burger", fries = " Fries ";
+        
+        function button1() {
+            document.getElementById("Textbox1").value += btn1;
+        }
+        function button2() {
+            document.getElementById("Textbox1").value += btn2;
+        }
+        function button3() {
+            document.getElementById("Textbox1").value += btn3;
+        }
+        function button4() {
+            document.getElementById("Textbox1").value += btn4;
+        }
+        function button5() {
+            document.getElementById("Textbox1").value += btn5;
+        }
+        function button6() {
+            document.getElementById("Textbox1").value += btn6;
+        }
+        function button7() {
+            document.getElementById("Textbox1").value += btn7;
+        }
+        function button8() {
+            document.getElementById("Textbox1").value += btn8;
+        }
+        function button9() {
+            document.getElementById("Textbox1").value += btn9;
+        }
+        function button0() {
+            document.getElementById("Textbox1").value += btn0;
+        }
+        function Burg() {
+            document.getElementById("Textbox1").value += brgr;
+        }
+        function Frs() {
+          document.getElementById("Textbox1").value += fries;
+        }
+        
+    </script>
+</head>
+
+<body>
+  <center>
+  <div class="container1">
+  <table>
+    <tr>
+      <td>
+    <input type="text" id="Textbox1" />
+    </td>
+    </tr>
+    
+      <tr>
+        <td>
+     <input type="button" value="Costa Leona #1" class="btn" onclick="button1()" />
+      <input type="button" value="Costa Leona #2" class="btn" onclick="button2()" />
+      <input type="button" value="Costa Leona #3" class="btn" onclick="button3()" />
+      <input type="button" value="Costa Leona #4" class="btn" onclick="button4()" />
+    </td>
+    </tr>
+     <tr>
+       <td>
+         <input type="button" value="Costa Leona #5" class="btn" onclick="button5()" />
+         <input type="button" value="Costa Leona #6" class="btn" onclick="button6()" />
+         <input type="button" value="Costa Leona #7" class="btn" onclick="button7()" />
+          <input type="button" value="Costa Leona #8" class="btn" onclick="button8()" />
+       </td>
+     </tr>
+      <tr>
+        <td>
+          <input type="button" value="Costa Leona #9" class="btn" onclick="button9()" />
+          <input type="button" value="Costa Leona #10" class="btn" onclick="button10()" />
+         <input type="button" value="Costa Leona #11" class="btn" onclick="button11()" />
+         <input type="button" value="Costa Leona #12" class="btn" onclick="button12()" />
+        </td>
+      </tr>
+       <tr>
+        <td>
+         <input type="button" value="Costa Leona #13" class="btn" onclick="button13()" />
+         <input type="button" value="Costa Leona #14" class="btn" onclick="button14()" />
+       </td>
+     </tr>
+          <tr>
+            <td>
+              <input type="button" value="Add to Cart" class="addbtn" onclick="addbtn()" />
+          <input type="button" value="Check Out" class="checkoutbtn" onclick="checkoutbtn()" />
+    </td>
+    </tr>
+    </table>
+  </div>
+  </center>
+</body>
+
+</html>

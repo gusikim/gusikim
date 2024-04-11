@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Javascript Arithmetic Operators using Buttons</title>
+	<script type="text/javascript">
+
+		function fun1()
+		{
+			var a=parseInt(t1.value);
+			var b=parseInt(t2.value);
+			var c = a + b;
+			document.getElementById('output').innerHTML="The Sum is equals to " + c;
+
+		}
+
+		function fun2()
+		{
+			var a=parseInt(t1.value);
+			var b=parseInt(t2.value);
+			var c = a - b;
+			document.getElementById('output').innerHTML="The Difference is equals to " + c;
+
+		}
+
+		function fun3()
+		{
+			var a=parseInt(t1.value);
+			var b=parseInt(t2.value);
+			var c = a * b;
+			document.getElementById('output').innerHTML="The Product is equals to " + c;
+
+		}
+		function fun4()
+		{
+			var a=parseInt(t1.value);
+			var b=parseInt(t2.value);
+			var c = a / b;
+			document.getElementById('output').innerHTML="The Quotient is equals to " + c;
+
+		}
+		function fun5()
+		{
+			var a=parseInt(t1.value);
+			var b=parseInt(t2.value);
+			var c = a % b;
+			document.getElementById('output').innerHTML="The Modulus is equals to " + c;
+
+		}
+
+	</script>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<td>Enter 1st No.:</td>
+				<td><input type="text" id="t1"/></td>
+			</tr>
+			<tr>
+				<td>Enter 2nd No.:</td>
+				<td><input type="text" id="t2"/></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left">
+					<input type="button" value="Sum" onClick="fun1()"/>
+
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="2" align="left">
+					<input type="button" value="Difference" onClick="fun2()"/>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left">
+					<input type="button" value="Product" onClick="fun3()"/>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left">
+					<input type="button" value="Quotient" onClick="fun4()"/>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="left">
+					<input type="button" value="Modulus" onClick="fun5()"/>
+
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<p id="output">Answer </p>
+
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

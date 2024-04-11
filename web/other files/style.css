@@ -1,0 +1,117 @@
+.head {
+	width: 100%;
+	height: 400px;
+	background-image: url("415929095_756439882575860_9149792348892178337_n.jpg");
+	
+}
+
+.cap {
+
+	font-family: "Times New Roman";
+	color: black;
+	margin-left: 580px;
+
+}
+
+.main {
+
+	width:100%;
+	background-color: beige;
+	background-position: center;
+	background-size: coverssss;
+	height: 200vh;
+}
+
+.navbar{
+
+	width: 1200px;
+	height: 25px;
+	margin: auto;
+
+}
+
+.icn{
+	color: antiquewhite;
+	font-size:35px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+
+}
+
+.a{
+	width: 100%;
+	height: 750px;
+}
+.menu {
+
+	width:100px;
+	margin-left: 250px;
+	
+
+}
+
+ul{
+
+	float: left;
+	display: flex;
+	justify-content: center;
+	align align-items: center;
+	margin-left: 320px;
+
+
+
+}
+
+ul li{
+
+	list-style: none;
+	margin-left: 45px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li a{
+
+	text-decoration: underline;
+	color: black;
+	font-family: sans-serif;
+	font-weight: lighter;
+	transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+	color: deeppink;
+}
+
+.search{
+
+width: 330px;
+float: left; 
+margin-left: 750px;
+
+}
+
+.srch{
+	font-family: 'Times New Roman';
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 1px solid;
+
+}
+
+.src{
+
+	border-image: 10,5px;
+}
+
+.footer{
+
+	height: 25px;
+	background-image: url("415929095_756439882575860_9149792348892178337_n.jpg");
+	font-family: "Times New Roman";
+
+}
